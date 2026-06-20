@@ -43,10 +43,10 @@ section {
 }
 
 section h2 {
-    color: #6d1f1f;
+    color: #1b465a;
     font-size: 2rem;
     margin-bottom: 1rem;
-    border-left: 5px solid #6D1F3A;
+    border-left: 5px solid #1b465a;
     padding-left: 12px;
 }
 
@@ -71,12 +71,16 @@ section h2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
+    align-items: start;
 }
 
 .gallery img {
     width: 100%;
-    height: 350px;
-    object-fit: cover;
+    height: auto;
+    max-height: 420px;
+    object-fit: contain;
+    background: white;
+    padding: 8px;
     border-radius: 10px;
     transition: 0.3s ease;
     box-shadow: 0 4px 12px rgba(0,0,0,0.12);
@@ -102,7 +106,7 @@ section h2 {
 
 .document-card h3 {
     margin-bottom: 0.75rem;
-    color: #6d1f1f;
+    color: #1b465a;
     font-size: 1.25rem;
 }
 
@@ -112,7 +116,7 @@ section h2 {
 
 .document-link {
     display: inline-block;
-    background-color: #6D1F3A;
+    background-color: #1b465a;
     color: white;
     text-decoration: none;
     padding: 0.85rem 1.1rem;
@@ -122,7 +126,7 @@ section h2 {
 }
 
 .document-link:hover {
-    background-color: #52162c;
+    background-color: #1b465a;
     transform: translateY(-1px);
 }
 
@@ -138,7 +142,7 @@ section h2 {
 
 /* İletişim */
 .contact a {
-    color: #6D1F3A;
+    color: #276684;
     text-decoration: none;
     font-weight: 600;
 }
@@ -149,7 +153,7 @@ section h2 {
 
 /* Footer */
 footer {
-    background-color: #6D1F3A;
+    background-color: #1b465a;
     color: white;
     text-align: center;
     padding: 1.5rem;
